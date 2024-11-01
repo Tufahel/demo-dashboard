@@ -57,7 +57,7 @@ const items = [
   },
   {
     title: "Settings",
-    url: "#",
+    url: "/settings",
     icon: Settings,
   },
 ];
@@ -126,15 +126,15 @@ export function AppSidebar() {
               </DropdownMenuTrigger>
               <DropdownMenuContent
                 side="top"
-                className="w-[--radix-popper-anchor-width]"
+                className="w-[--radix-popper-anchor-width] m-2 bg-white border rounded-xl p-2 drop-shadow-md"
               >
-                <DropdownMenuItem>
+                <DropdownMenuItem className="p-2 hover:bg-gray-100 rounded-xl">
                   <span>Account</span>
                 </DropdownMenuItem>
-                <DropdownMenuItem>
+                <DropdownMenuItem className="p-2 hover:bg-gray-100 rounded-xl">
                   <span>Billing</span>
                 </DropdownMenuItem>
-                <DropdownMenuItem>
+                <DropdownMenuItem className="p-2 hover:bg-gray-100 rounded-xl">
                   <span>Sign out</span>
                 </DropdownMenuItem>
               </DropdownMenuContent>
