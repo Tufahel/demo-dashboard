@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "vercel-build": "npm install --legacy-peer-deps && npm run build"
+    "start": "next start"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
