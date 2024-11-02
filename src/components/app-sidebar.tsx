@@ -1,13 +1,10 @@
 import {
-    AirplayIcon,
   Calendar,
-  ChevronDown,
   ChevronUp,
   Globe,
   Home,
   Inbox,
   Plane,
-  Plus,
   Search,
   Settings,
   User2,
@@ -15,7 +12,6 @@ import {
 
 import {
   Sidebar,
-  SidebarHeader,
   SidebarContent,
   SidebarGroup,
   SidebarGroupContent,
@@ -24,7 +20,6 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
   SidebarFooter,
-  SidebarGroupAction,
 } from "@/components/ui/sidebar";
 import {
   DropdownMenu,

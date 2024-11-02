@@ -9,9 +9,6 @@ import {
   Mail,
   Shield,
   CreditCard,
-  User2Icon,
-  Activity,
-  UserCheck2Icon,
   UserRoundSearch,
 } from "lucide-react";
 import { AccountForm } from "./account/account-form";
@@ -26,7 +23,7 @@ type SettingsPage =
   | "billing";
 
 export function SettingsLayout() {
-  const [currentPage, setCurrentPage] = useState<SettingsPage>("account");
+  const [currentPage, setCurrentPage] = useState<SettingsPage>("profile");
 
   const settingsNavItems = [
     {
