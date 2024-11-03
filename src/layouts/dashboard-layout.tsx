@@ -17,7 +17,7 @@ import { Layout } from "./layout";
 
 export default function DashboardLayout() {
   return (
-    <Layout className="p-4 w-full">
+    <Layout className="p-4">
       {/* ===== Top Heading ===== */}
       <div className="flex flex-row">
         <TopNav links={topNav} />
@@ -153,12 +153,7 @@ export default function DashboardLayout() {
             </div>
             <div className='grid grid-cols-1 gap-4 lg:grid-cols-7'>
               <Card className='col-span-1 lg:col-span-4'>
-                <CardHeader>
-                  <CardTitle>Overview</CardTitle>
-                </CardHeader>
-                <CardContent className='pl-2'>
-                  <Overview />
-                </CardContent>
+                  <Overview/>
               </Card>
               <Card className='col-span-1 lg:col-span-3'>
                 <CardHeader>
