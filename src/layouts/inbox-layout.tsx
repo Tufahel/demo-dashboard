@@ -47,7 +47,7 @@ export default function Chats() {
   )
 
   return (
-    <Layout className='w-full'>
+    <Layout>
       {/* ===== Top Heading ===== */}
       <Layout.Header>
         <Search />
@@ -57,7 +57,7 @@ export default function Chats() {
       </Layout.Header>
 
       <Layout.Body className='sm:overflow-hidden'>
-        <section className='flex h-full gap-6'>
+        <section className='flex gap-6'>
           {/* Left Side */}
           <div className='flex w-full flex-col gap-2'>
             <div className='sticky top-0 z-10 -mx-4 bg-background px-4 pb-3 shadow-md sm:static sm:z-auto sm:mx-0 sm:p-0 sm:shadow-none'>

@@ -17,7 +17,7 @@ import { Layout } from "./layout";
 
 export default function DashboardLayout() {
   return (
-    <Layout className="p-4">
+    <Layout className="px-8 py-4">
       {/* ===== Top Heading ===== */}
       <div className="flex flex-row">
         <TopNav links={topNav} />
