@@ -1,7 +1,7 @@
+// app/layout.tsx
 import type { Metadata } from "next";
-import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import "./globals.css";
-import { AppSidebar } from "@/layouts/app-sidebar";
+import { MainLayout } from "@/layouts/main-layout";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,13 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body suppressHydrationWarning>
-        <SidebarProvider>
-          <AppSidebar />
-          <main>
-            <SidebarTrigger />
-            {children}
-          </main>
-        </SidebarProvider>
+        <MainLayout>{children}</MainLayout>
       </body>
     </html>
   );

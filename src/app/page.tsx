@@ -1,9 +1,9 @@
-import { AppSidebar } from "@/layouts/app-sidebar";
+import RegisterComponent from "@/components/register/register";
 
 export default function Home() {
   return (
     <div>
-      <AppSidebar />
+      <RegisterComponent />
     </div>
   );
 }
