@@ -5,13 +5,13 @@ import { JSX, SVGProps } from "react";
 
 export default function RegisterComponent() {
   return (
-    <div className="flex h-screen bg-gray-100">
-      <div className="flex flex-col w-1/2 bg-black text-white p-12 space-y-6">
+    <div className="flex flex-col md:flex-row h-screen bg-gray-100">
+      <div className="flex flex-col w-full md:w-1/2 bg-black text-white p-8 md:p-12 space-y-6">
         <div className="flex items-center space-x-2">
           <GaugeIcon className="h-6 w-6 text-white" />
           <span className="font-bold text-lg">Acme Inc</span>
         </div>
-        <div className="mt-20">
+        <div className="mt-10 md:mt-20">
           <blockquote>
             "This library has saved me countless hours of work and helped me
             deliver stunning designs to my clients faster than ever before."
@@ -19,8 +19,8 @@ export default function RegisterComponent() {
           <cite className="block mt-4">Sofia Davis</cite>
         </div>
       </div>
-      <div className="flex flex-col w-1/2 items-center justify-center p-12">
-        <div className="flex justify-end w-full pr-12">
+      <div className="flex flex-col w-full md:w-1/2 items-center justify-center p-8 md:p-12">
+        <div className="flex justify-end w-full pr-4 md:pr-12">
           <Link
             className="text-gray-600 hover:text-gray-800"
             href="/login"
@@ -30,8 +30,10 @@ export default function RegisterComponent() {
           </Link>
         </div>
         <div className="w-full max-w-md">
-          <div className="mb-6">
-            <h2 className="text-3xl font-bold mb-2">Create an account</h2>
+          <div className="mb-4 md:mb-6">
+            <h2 className="text-2xl md:text-3xl font-bold mb-2">
+              Create an account
+            </h2>
             <div className="text-gray-600">
               Enter your email below to create your account
             </div>
@@ -39,8 +41,7 @@ export default function RegisterComponent() {
           <div className="space-y-4">
             <Input placeholder="name@example.com" />
             <Button className="bg-[#bd1e59] text-white w-full">
-              {" "}
-              <Link href="/dashboard" prefetch={false}>
+              <Link href="/dashboard" className="px-6 py-2" prefetch={false}>
                 Signin with Email
               </Link>
             </Button>

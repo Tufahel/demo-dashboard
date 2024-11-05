@@ -31,7 +31,7 @@ export default function Chats() {
 
   const currentMessage = selectedUser.messages.reduce(
     (acc: Record<string, Convo[]>, obj: any) => {
-      const key = 'D MMM, YYYY';
+      const key = new Date(obj.timestamp).toLocaleString();
 
       // Create an array for the category if it doesn't exist
       if (!acc[key]) {
@@ -131,7 +131,7 @@ export default function Chats() {
           {/* Right Side */}
           <div
             className={cn(
-              'absolute inset-0 left-full z-50 flex w-full flex-1 flex-col rounded-md border bg-primary-foreground shadow-sm transition-all duration-200 sm:static sm:z-auto sm:flex',
+              'absolute inset-0 left-full z-50 flex w-full flex-col rounded-md border bg-primary-foreground shadow-sm transition-all duration-200 sm:static sm:z-auto sm:flex',
               mobileSelectedUser && 'left-0'
             )}
           >
@@ -217,7 +217,7 @@ export default function Chats() {
                                   msg.sender === 'You' && 'text-right'
                                 )}
                               >
-                                'h:mm a'
+                                {new Date(msg.timestamp).toLocaleString()}
                               </span>
                             </div>
                           ))}
