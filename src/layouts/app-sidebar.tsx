@@ -1,5 +1,4 @@
 import {
-  Calendar,
   ChevronUp,
   Globe,
   Home,
@@ -8,6 +7,7 @@ import {
   Search,
   Settings,
   User2,
+  UsersIcon,
 } from "lucide-react";
 
 import {
@@ -41,9 +41,9 @@ const items = [
     icon: Inbox,
   },
   {
-    title: "Calendar",
-    url: "#",
-    icon: Calendar,
+    title: "Users",
+    url: "/users",
+    icon: UsersIcon,
   },
   {
     title: "Search",

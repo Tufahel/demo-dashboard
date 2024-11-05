@@ -1,0 +1,83 @@
+[
+  {
+    "id": "1",
+    "name": "Alice Johnson",
+    "country": "Romania",
+    "email": "alice@example.com",
+    "avatarUrl": "https://randomuser.me/api/portraits/men/24.jpg",
+    "createdAt": "2023-01-15T00:00:00.000Z",
+    "jobApplications": 5
+  },
+  {
+    "id": "2",
+    "name": "Bob Smith",
+    "country": "Hungary",
+    "email": "bob@example.com",
+    "avatarUrl": "https://randomuser.me/api/portraits/men/26.jpg",
+    "createdAt": "2023-03-22T00:00:00.000Z",
+    "jobApplications": 3
+  },
+  {
+    "id": "3",
+    "name": "Charlie Brown",
+    "country": "Poland",
+    "email": "charlie@example.com",
+    "avatarUrl": "https://randomuser.me/api/portraits/men/25.jpg",
+    "createdAt": "2023-05-10T00:00:00.000Z",
+    "jobApplications": 7
+  },
+  {
+    "id": "4",
+    "name": "karlie Brown",
+    "country": "Romania",
+    "email": "karlie@example.com",
+    "avatarUrl": "https://randomuser.me/api/portraits/men/27.jpg",
+    "createdAt": "2023-11-10T00:00:00.000Z",
+    "jobApplications": 12
+  },
+  {
+    "id": "5",
+    "name": "Parlie Brown",
+    "country": "Nigeria",
+    "email": "paarlie@example.com",
+    "avatarUrl": "https://randomuser.me/api/portraits/men/29.jpg",
+    "createdAt": "2023-10-10T00:00:00.000Z",
+    "jobApplications": 6
+  },
+  {
+    "id": "6",
+    "name": "Alie Brown",
+    "country": "Lithuania",
+    "email": "Alie@example.com",
+    "avatarUrl": "https://randomuser.me/api/portraits/men/30.jpg",
+    "createdAt": "2023-09-10T00:00:00.000Z",
+    "jobApplications": 8
+  },
+  {
+    "id": "7",
+    "name": "Brown Neon",
+    "country": "Malta",
+    "email": "neon@example.com",
+    "avatarUrl": "https://randomuser.me/api/portraits/men/34.jpg",
+    "createdAt": "2023-08-10T00:00:00.000Z",
+    "jobApplications": 11
+  },
+  {
+    "id": "8",
+    "name": "Simon Krown",
+    "country": "Austria",
+    "email": "simon@example.com",
+    "avatarUrl": "https://randomuser.me/api/portraits/men/36.jpg",
+    "createdAt": "2023-07-10T00:00:00.000Z",
+    "jobApplications": 7
+  },
+  {
+    "id": "9",
+    "name": "Andrew Jason",
+    "country": "Greece",
+    "email": "andrew@example.com",
+    "avatarUrl": "https://randomuser.me/api/portraits/men/44.jpg",
+    "createdAt": "2023-06-10T00:00:00.000Z",
+    "jobApplications": 9
+  }
+]
