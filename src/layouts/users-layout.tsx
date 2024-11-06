@@ -15,6 +15,7 @@ import { Search } from "@/components/dashboard/search";
 import { UserNav } from "@/components/dashboard/user-nav";
 import { Layout } from "./layout";
 import mockUsers from "@/data/mockUsers.json";
+import ThemeSwitch from "@/components/theme-switch";
 
 type User = {
   id: string;
@@ -40,6 +41,7 @@ export default function UserList() {
       <Layout.Header>
         <Search />
         <div className="ml-auto flex items-center pl-8 pr-4">
+          <ThemeSwitch />
           <UserNav />
         </div>
       </Layout.Header>

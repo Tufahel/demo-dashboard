@@ -1,11 +1,14 @@
 import {
   ChevronUp,
+  Clock,
   Globe,
   Home,
   Inbox,
   Plane,
   Search,
   Settings,
+  SquareActivity,
+  Train,
   User2,
   UsersIcon,
 } from "lucide-react";
@@ -58,17 +61,35 @@ const items = [
 ];
 
 const itemsHelp = [
-    {
-      title: "Support",
-      url: "#",
-      icon: Globe,
-    },
-    {
-      title: "Feedback",
-      url: "#",
-      icon: Plane,
-    },
-  ];
+  {
+    title: "Support",
+    url: "#",
+    icon: Globe,
+  },
+  {
+    title: "Feedback",
+    url: "#",
+    icon: Plane,
+  },
+];
+
+const itemsProject = [
+  {
+    title: "Design Engineering",
+    url: "#",
+    icon: SquareActivity,
+  },
+  {
+    title: "Sales & Marketing",
+    url: "#",
+    icon: Clock,
+  },
+  {
+    title: "Travel",
+    url: "#",
+    icon: Train,
+  },
+];
 
 export function AppSidebar() {
   return (
@@ -79,6 +100,23 @@ export function AppSidebar() {
           <SidebarGroupContent>
             <SidebarMenu>
               {items.map((item) => (
+                <SidebarMenuItem key={item.title}>
+                  <SidebarMenuButton asChild>
+                    <a href={item.url}>
+                      <item.icon />
+                      <span>{item.title}</span>
+                    </a>
+                  </SidebarMenuButton>
+                </SidebarMenuItem>
+              ))}
+            </SidebarMenu>
+          </SidebarGroupContent>
+        </SidebarGroup>
+        <SidebarGroup>
+          <SidebarGroupLabel>Projects</SidebarGroupLabel>
+          <SidebarGroupContent>
+            <SidebarMenu>
+              {itemsProject.map((item) => (
                 <SidebarMenuItem key={item.title}>
                   <SidebarMenuButton asChild>
                     <a href={item.url}>

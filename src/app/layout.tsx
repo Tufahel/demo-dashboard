@@ -2,6 +2,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { MainLayout } from "@/layouts/main-layout";
+import { ThemeProvider } from "@/components/theme-provider";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +17,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body suppressHydrationWarning>
-        <MainLayout>{children}</MainLayout>
+        <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+          <MainLayout>{children}</MainLayout>
+        </ThemeProvider>
       </body>
     </html>
   );

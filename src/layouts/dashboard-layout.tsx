@@ -14,6 +14,7 @@ import { Overview } from "@/components/dashboard/overview";
 import { RecentSales } from "@/components/dashboard/recent-sales";
 import { Button } from "@/components/ui/button";
 import { Layout } from "./layout";
+import ThemeSwitch from "@/components/theme-switch";
 
 export default function DashboardLayout() {
   return (
@@ -23,6 +24,7 @@ export default function DashboardLayout() {
         <TopNav links={topNav} />
         <div className="ml-auto flex flex-row items-center space-x-4">
           <Search />
+          <ThemeSwitch />
           <UserNav />
         </div>
       </div>
