@@ -1,6 +1,7 @@
 "use client";
 
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
+import { ThemeProvider } from "@/components/theme-provider";
 import { AppSidebar } from "@/layouts/app-sidebar";
 import { usePathname } from "next/navigation";
 import React from "react";
@@ -17,6 +18,7 @@ export function MainLayout({ children }: { children: React.ReactNode }) {
   }
 
   return (
+    <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
     <SidebarProvider open={!open} onOpenChange={setOpen}>
       <AppSidebar />
       <main className="w-full">
@@ -27,5 +29,6 @@ export function MainLayout({ children }: { children: React.ReactNode }) {
         {children}
       </main>
     </SidebarProvider>
+    </ThemeProvider>
   );
 }

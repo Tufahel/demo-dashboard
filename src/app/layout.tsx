@@ -17,9 +17,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body suppressHydrationWarning>
-        <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-          <MainLayout>{children}</MainLayout>
-        </ThemeProvider>
+        {" "}
+        <MainLayout>{children}</MainLayout>
       </body>
     </html>
   );
