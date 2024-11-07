@@ -78,7 +78,7 @@ export function SettingsLayout() {
                 variant="ghost"
                 className={cn(
                   "w-full justify-start",
-                  currentPage === item.page && "bg-gray-600"
+                  currentPage === item.page
                 )}
                 onClick={() => setCurrentPage(item.page)}
               >

@@ -5,12 +5,12 @@ import {
   Home,
   Inbox,
   Plane,
-  Search,
   Settings,
   SquareActivity,
   Train,
   User2,
   UsersIcon,
+  Wrench,
 } from "lucide-react";
 
 import {
@@ -49,9 +49,9 @@ const items = [
     icon: UsersIcon,
   },
   {
-    title: "Search",
-    url: "#",
-    icon: Search,
+    title: "Services",
+    url: "/services",
+    icon: Wrench,
   },
   {
     title: "Settings",

@@ -1,0 +1,98 @@
+[
+    {
+      "id": 1,
+      "name": "Web Development",
+      "category": "Development",
+      "price": 999,
+      "description": "Custom website development tailored to your needs.",
+      "imageUrl": "https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 2,
+      "name": "Logo Design",
+      "category": "Design",
+      "price": 299,
+      "description": "Professional logo design to represent your brand.",
+      "imageUrl": "https://images.unsplash.com/photo-1605152277138-359efd4a6862?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 3,
+      "name": "SEO Optimization",
+      "category": "Marketing",
+      "price": 499,
+      "description": "Boost your website's search engine rankings.",
+      "imageUrl": "https://images.unsplash.com/photo-1686061594183-8c864f508b00?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 4,
+      "name": "Content Writing",
+      "category": "Content",
+      "price": 199,
+      "description": "Engaging content creation for your website and marketing materials.",
+      "imageUrl": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 5,
+      "name": "Web Development",
+      "category": "Development",
+      "price": 999,
+      "description": "Custom website development tailored to your needs.",
+      "imageUrl": "https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 6,
+      "name": "Logo Design",
+      "category": "Design",
+      "price": 299,
+      "description": "Professional logo design to represent your brand.",
+      "imageUrl": "https://images.unsplash.com/photo-1605152277138-359efd4a6862?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 7,
+      "name": "SEO Optimization",
+      "category": "Marketing",
+      "price": 499,
+      "description": "Boost your website's search engine rankings.",
+      "imageUrl": "https://images.unsplash.com/photo-1686061594183-8c864f508b00?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 8,
+      "name": "Content Writing",
+      "category": "Content",
+      "price": 199,
+      "description": "Engaging content creation for your website and marketing materials.",
+      "imageUrl": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 9,
+      "name": "Web Development",
+      "category": "Development",
+      "price": 999,
+      "description": "Custom website development tailored to your needs.",
+      "imageUrl": "https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 10,
+      "name": "Logo Design",
+      "category": "Design",
+      "price": 299,
+      "description": "Professional logo design to represent your brand.",
+      "imageUrl": "https://images.unsplash.com/photo-1605152277138-359efd4a6862?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 11,
+      "name": "SEO Optimization",
+      "category": "Marketing",
+      "price": 499,
+      "description": "Boost your website's search engine rankings.",
+      "imageUrl": "https://images.unsplash.com/photo-1686061594183-8c864f508b00?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 12,
+      "name": "Content Writing",
+      "category": "Content",
+      "price": 199,
+      "description": "Engaging content creation for your website and marketing materials.",
+      "imageUrl": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+  ]
