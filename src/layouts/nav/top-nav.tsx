@@ -7,7 +7,7 @@ import {
 } from '@/components/ui/dropdown-menu'
 import Link from 'next/link'
 import { Icon } from 'lucide-react'
-import { Button } from '../ui/button'
+import { Button } from '../../components/ui/button'
 
 interface TopNavProps extends React.HTMLAttributes<HTMLElement> {
   links: {

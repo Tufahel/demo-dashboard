@@ -1,13 +1,13 @@
 import {
   ChevronUp,
   Clock,
+  FileQuestion,
+  Gift,
   Globe,
   Home,
   Inbox,
   Plane,
   Settings,
-  SquareActivity,
-  Train,
   User2,
   UsersIcon,
   Wrench,
@@ -63,31 +63,31 @@ const items = [
 const itemsHelp = [
   {
     title: "Support",
-    url: "#",
+    url: "/loading",
     icon: Globe,
   },
   {
     title: "Feedback",
-    url: "#",
-    icon: Plane,
+    url: "/loading",
+    icon: FileQuestion,
   },
 ];
 
 const itemsProject = [
   {
-    title: "Design Engineering",
-    url: "#",
-    icon: SquareActivity,
-  },
-  {
     title: "Sales & Marketing",
-    url: "#",
+    url: "/survey",
     icon: Clock,
   },
   {
+    title: "Success",
+    url: "/loading",
+    icon: Gift,
+  },
+  {
     title: "Travel",
-    url: "#",
-    icon: Train,
+    url: "/loading",
+    icon: Plane,
   },
 ];
 

@@ -10,9 +10,9 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Search } from "@/components/dashboard/search";
+import { Search } from "@/components/search/search";
 import ThemeSwitch from "@/components/theme-switch";
-import { UserNav } from "@/components/dashboard/user-nav";
+import { UserNav } from "@/layouts/nav/user-nav";
 import allservices from "@/data/allservices.json";
 import { Plus } from "lucide-react";
 

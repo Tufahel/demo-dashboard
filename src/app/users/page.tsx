@@ -1,4 +1,4 @@
-import UserList from '@/layouts/users-layout';
+import UserList from '@/components/users/users';
 import React from 'react';
 
 const UsersPage = () => {

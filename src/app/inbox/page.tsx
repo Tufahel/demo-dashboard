@@ -1,4 +1,4 @@
-import Chats from '@/layouts/inbox-layout';
+import Chats from '@/components/inbox/inbox';
 import React from 'react';
 
 const InboxPage = () => {

@@ -1,4 +1,4 @@
-import Services from '@/layouts/services-layout';
+import Services from '@/components/services/services';
 import React from 'react';
 
 const ServicesPage = () => {

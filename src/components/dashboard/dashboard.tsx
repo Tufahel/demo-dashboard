@@ -6,15 +6,17 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { TopNav } from "@/components/dashboard/top-nav";
-import { Search } from "@/components/dashboard/search";
-import { UserNav } from "@/components/dashboard/user-nav";
+import { TopNav } from "@/layouts/nav/top-nav";
+import { Search } from "@/components/search/search";
+import { UserNav } from "@/layouts/nav/user-nav";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Overview } from "@/components/dashboard/overview";
-import { RecentSales } from "@/components/dashboard/recent-sales";
+import { Overview } from "@/components/dashboard/chart/overview";
+import { RecentSales } from "@/components/dashboard/chart/recent-sales";
 import { Button } from "@/components/ui/button";
-import { Layout } from "./layout";
+import { Layout } from "../../layouts/layout";
 import ThemeSwitch from "@/components/theme-switch";
+import { TooltipComponent } from "@/components/dashboard/chart/tooltip";
+import { PieChartComponent } from "@/components/dashboard/chart/piechart-label";
 
 export default function DashboardLayout() {
   return (
@@ -167,6 +169,12 @@ export default function DashboardLayout() {
                 <CardContent>
                   <RecentSales />
                 </CardContent>
+              </Card>
+              <Card className='col-span-1 lg:col-span-4 flex items-center justify-center p-4'>
+                  <TooltipComponent/>
+              </Card>
+              <Card className='col-span-1 lg:col-span-3 flex items-center justify-center p-4'>
+                  <PieChartComponent/>
               </Card>
             </div>
           </TabsContent>

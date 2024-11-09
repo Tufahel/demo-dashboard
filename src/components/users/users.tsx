@@ -11,9 +11,9 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { formatDistanceToNow } from "date-fns";
-import { Search } from "@/components/dashboard/search";
-import { UserNav } from "@/components/dashboard/user-nav";
-import { Layout } from "./layout";
+import { Search } from "@/components/search/search";
+import { UserNav } from "@/layouts/nav/user-nav";
+import { Layout } from "../../layouts/layout";
 import mockUsers from "@/data/mockUsers.json";
 import ThemeSwitch from "@/components/theme-switch";
 

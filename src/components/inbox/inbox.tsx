@@ -12,9 +12,9 @@ import { Fragment } from "react/jsx-runtime";
 import { cn } from "@/lib/utils";
 import { Separator } from "@/components/ui/separator";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Layout } from "./layout";
-import { Search } from "@/components/dashboard/search";
-import { UserNav } from "@/components/dashboard/user-nav";
+import { Layout } from "../../layouts/layout";
+import { Search } from "@/components/search/search";
+import { UserNav } from "@/layouts/nav/user-nav";
 
 // Fake Data
 import { conversations } from "@/data/conversations.json";
